@@ -1,6 +1,9 @@
 # Monolog Extra Data Processor
 
+[![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
+[![Build Status][ico-travis]][link-travis]
+[![Total Downloads][ico-downloads]][link-downloads]
 
 A processor for [Monolog](https://github.com/Seldaek/monolog) to enable easy addition of arbitrary data into all log entries.
 
@@ -126,7 +129,13 @@ If you discover any security related issues, please email development@creitive.r
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
+[ico-version]: https://img.shields.io/packagist/v/creitive/monolog-extra-data-processor.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/creitive/monolog-extra-data-processor/master.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/creitive/monolog-extra-data-processor.svg?style=flat-square
 
+[link-packagist]: https://packagist.org/packages/creitive/monolog-extra-data-processor
+[link-travis]: https://travis-ci.org/creitive/monolog-extra-data-processor
+[link-downloads]: https://packagist.org/packages/creitive/monolog-extra-data-processor
 [link-author]: https://github.com/levacic
 [link-contributors]: ../../contributors
