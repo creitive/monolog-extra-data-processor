@@ -2,7 +2,7 @@
 
 [![Software License][ico-license]](LICENSE.md)
 
-A processor for [Monolog][https://github.com/Seldaek/monolog] to enable easy addition of arbitrary data into all log entries.
+A processor for [Monolog](https://github.com/Seldaek/monolog) to enable easy addition of arbitrary data into all log entries.
 
 
 ## Install
