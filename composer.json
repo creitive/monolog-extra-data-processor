@@ -1,0 +1,39 @@
+{
+    "name": "creitive/monolog-extra-data-processor",
+    "description": "A Monolog processor for adding arbitrary logging data",
+    "keywords": [
+        "monolog",
+        "processor"
+    ],
+    "homepage": "https://github.com/creitive/monolog-extra-data-processor",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Miloš Levačić",
+            "email": "milos@levacic.net",
+            "homepage": "http://levacic.net/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8",
+        "scrutinizer/ocular": "^1.1",
+        "squizlabs/php_codesniffer": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Creitive\\Monolog\\Processor\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Creitive\\Monolog\\Processor\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
